@@ -26,7 +26,7 @@ public class Redirect_to_JSP extends HttpServlet {
         // To be redirected from Servlet, use getRequestDispatcher( path_to_JSP ) to redirect and then forward the request using
         // forward( req, res ) method ->
 
-        // out.println("Welcome to SERVLET");  
+        // out.println("Welcome to SERVLET");
 
 
 
