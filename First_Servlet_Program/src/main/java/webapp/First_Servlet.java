@@ -12,12 +12,21 @@ import java.io.PrintWriter;
  * created by Shivam on 20-02-2019.
  */
 
+/*
+
+In Intellij IDEA, we must edit configuration,  and add Tomcat by clicking on "+".
+Then in Deployment tab, Select <project name>_war .
+Also in pom.xml, mention <packaging>war</packaging>
+
+ */
 
 // We are extending a HttpServlet class so that to handel the HTTP REQUEST and give back a response to that request.
 
 
 // Same name as we given in web.xml to the <welcome-file> ..... It is like a ROUTE.
 // Here we are handling /login.do route. OR on the address localhost:8080/login.do, We have to execute following Servlet.
+
+// By default this servlet will execute as we have specified the urlPattern in the <welcome-list> in web.xml
 @WebServlet(urlPatterns = "/login.do")
 public class First_Servlet extends HttpServlet{
 
