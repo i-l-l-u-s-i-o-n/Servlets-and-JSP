@@ -7,12 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0201e3eb-fd5e-4423-878e-8ebe3804addc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Passing_Request_parameter_using_GET_method/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Passing_Request_parameter_using_GET_method/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Passing_Request_parameter_using_GET_method/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Passing_Request_parameter_using_GET_method/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Passing_Request_parameter_using_GET_method/target/Passing_Request_parameter_using_GET_method-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../Passing_Request_parameter_using_GET_method/target/Passing_Request_parameter_using_GET_method-1.0-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Redirecting_to_JSP_form_SERVLET/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Redirecting_to_JSP_form_SERVLET/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Redirecting_to_JSP_form_SERVLET/src/main/java/com/shivam/Redirect_to_JSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Redirecting_to_JSP_form_SERVLET/src/main/java/com/shivam/Redirect_to_JSP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Redirecting_to_JSP_form_SERVLET/target/Redirecting_to_JSP_form_SERVLET-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../Redirecting_to_JSP_form_SERVLET/target/Redirecting_to_JSP_form_SERVLET-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Redirecting_to_JSP_form_SERVLET/target/Redirecting_to_JSP_form_SERVLET-1.0-SNAPSHOT/WEB-INF/classes/com/shivam/Redirect_to_JSP.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Redirecting_to_JSP_form_SERVLET/target/Redirecting_to_JSP_form_SERVLET-1.0-SNAPSHOT/WEB-INF/classes/com/shivam/Redirect_to_JSP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Redirecting_to_JSP_form_SERVLET/target/classes/com/shivam/Redirect_to_JSP.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Redirecting_to_JSP_form_SERVLET/target/classes/com/shivam/Redirect_to_JSP.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -173,7 +171,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550686740226" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550688297980" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -307,7 +305,7 @@
       <window_info anchor="bottom" id="Database Changes" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.1764706" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.1764706" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
