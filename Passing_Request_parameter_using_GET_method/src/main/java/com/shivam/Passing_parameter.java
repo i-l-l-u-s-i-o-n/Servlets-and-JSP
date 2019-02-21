@@ -46,16 +46,23 @@ public class Passing_parameter extends HttpServlet {
         //======================= Passing parameter to JSP ==============================//
 
         String name=request.getParameter("name");
+        String age= request.getParameter("age");
 
 
         // Passing parameter to our JSP.
         request.setAttribute("JSP_name",name);
+        request.setAttribute("age",age);
 
 
         //by default, it will print WELCOME " "
         // But when we add ?name=SHIVAM, it will print WELCOME " SHIVAM "
         // The link will be ->
+
         //http://localhost:8080/Passing_Request_parameter_using_GET_method_war/?name=SHIVAM
+        // To pass more than one parameter , use & to separate the parameters.
+
+        //http://localhost:8080/Passing_Request_parameter_using_GET_method_war/?name=SHIVAM&age=22
+
         request.getRequestDispatcher("/WEB-INF/views/index.jsp").forward(request,response);
 
     }

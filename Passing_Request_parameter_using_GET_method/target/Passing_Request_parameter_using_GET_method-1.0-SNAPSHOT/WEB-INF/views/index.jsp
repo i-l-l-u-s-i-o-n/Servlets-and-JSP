@@ -13,6 +13,6 @@
 <body>
 
 <%--      ${}    -> It is called expresion language--%>
-<h1>Welcome " ${JSP_name} "</h1>
+<h1>Welcome " ${JSP_name} "   ${age}</h1>
 </body>
 </html>
