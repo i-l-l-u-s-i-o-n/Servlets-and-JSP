@@ -27,18 +27,43 @@ So if are submitting sensitive info. such as password, we can use POST instead o
 @WebServlet(urlPatterns = "/todo")
 public class ToDo_Servlet extends HttpServlet {
 
+    //For Using ToDo services as retrieve list etc.
+    ToDoService service=new ToDoService();
 
     @Override
     protected void doGet(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws ServletException, IOException {
 
 
-        //For Using ToDo services as retrieve list etc.
-        ToDoService service=new ToDoService();
+
 
         httpServletRequest.setAttribute("list",service.getList());
         httpServletRequest.getRequestDispatcher("/WEB-INF/views/todo.jsp").forward(httpServletRequest, httpServletResponse);
     }
 
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+
+        // Adding new ToDo.
+
+        service.addToDo(request.getParameter("newToDO"));
+
+
+//        request.setAttribute("list",service.getList());
+//        request.getRequestDispatcher("/WEB-INF/views/todo.jsp").forward(request, response);
+
+        //Above code causes the problem of DUPLICATE SUBMITTING.
+        // If we do this, when we refresh page, it will add the last added Todo again.
+        // So instead of showing data in the doPost(), we can redirect it to /todo servlet and let the doGet() execute.
+
+        // Redirecting to Todo_servlet to list the todos.
+        response.sendRedirect("/todo");
+
+
+
+
+
+    }
 }
 
 

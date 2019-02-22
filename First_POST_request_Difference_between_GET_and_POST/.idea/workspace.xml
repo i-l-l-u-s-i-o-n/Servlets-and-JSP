@@ -9,7 +9,21 @@
     <list default="true" id="5e83eaf0-ac16-45af-8d9d-d64cb9adc8c7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Introduction_to_scriptlets/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Introduction_to_scriptlets/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction_to_scriptlets/src/main/java/com/shivam/Using_scriptlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Introduction_to_scriptlets/src/main/java/com/shivam/Using_scriptlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/ToDo_Application_PROJECT.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/src/main/java/com/shivam/ToDo/ToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/src/main/java/com/shivam/ToDo/ToDo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/src/main/java/com/shivam/ToDo/ToDo_Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/src/main/java/com/shivam/ToDo/ToDo_Servlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/src/main/java/com/shivam/login/Login_Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/src/main/java/com/shivam/login/Login_Servlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/src/main/webapp/WEB-INF/views/todo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/src/main/webapp/WEB-INF/views/todo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/ToDo_Application_PROJECT-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/ToDo_Application_PROJECT-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/ToDo_Application_PROJECT-1.0-SNAPSHOT/WEB-INF/classes/com/shivam/ToDo/ToDo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/ToDo_Application_PROJECT-1.0-SNAPSHOT/WEB-INF/classes/com/shivam/ToDo/ToDo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/ToDo_Application_PROJECT-1.0-SNAPSHOT/WEB-INF/classes/com/shivam/ToDo/ToDo_Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/ToDo_Application_PROJECT-1.0-SNAPSHOT/WEB-INF/classes/com/shivam/ToDo/ToDo_Servlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/ToDo_Application_PROJECT-1.0-SNAPSHOT/WEB-INF/classes/com/shivam/login/Login_Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/ToDo_Application_PROJECT-1.0-SNAPSHOT/WEB-INF/classes/com/shivam/login/Login_Servlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/ToDo_Application_PROJECT-1.0-SNAPSHOT/WEB-INF/views/todo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/ToDo_Application_PROJECT-1.0-SNAPSHOT/WEB-INF/views/todo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/classes/META-INF/ToDo_Application_PROJECT.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/classes/com/shivam/ToDo/ToDo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/classes/com/shivam/ToDo/ToDo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/classes/com/shivam/ToDo/ToDo_Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/classes/com/shivam/ToDo/ToDo_Servlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/classes/com/shivam/login/Login_Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/classes/com/shivam/login/Login_Servlet.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,19 +36,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/shivam/POST_request.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="48" column="56" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+            <state relative-caret-position="170">
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/shivam/POST_request.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="343">
+              <caret line="48" column="58" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -161,8 +175,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550821803584" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550829746039" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ToDo_Application_PROJECT" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -271,17 +285,53 @@
       <option name="presentableId" value="Default" />
       <updated>1550771781649</updated>
       <workItem from="1550771843187" duration="1269000" />
-      <workItem from="1550814346647" duration="1969000" />
+      <workItem from="1550814346647" duration="3272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3238000" />
+    <option name="totallyTimeSpent" value="4541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
-    <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20121029" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1488" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3296" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3296" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="JSF" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="CDI" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20121029" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
@@ -317,7 +367,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="CDI" order="10" />
       <window_info anchor="right" id="Bean Validation" order="11" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -351,17 +401,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shivam/POST_request.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="48" column="56" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+        <state relative-caret-position="170">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/shivam/POST_request.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="343">
+          <caret line="48" column="58" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
         </state>
       </provider>
     </entry>

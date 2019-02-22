@@ -49,8 +49,24 @@ public class Login_Servlet extends HttpServlet {
 
         if (user.isValid(name,pass)) {
 
-            // Redirecting to another SERVLET///////////
 
+//            REQUEST SCOPE and SESSION SCOPE ->
+
+//            Here it will not set "name" in the ToDo.jsp as we are redirecting from one servlet to another servlet
+//            httpServletRequest.setAttribute("name",name);
+//            Also the name will also can't be sent over different requests, for example ->
+//            Here we are setting the attribute in in doPOST() which is a post request,
+//            and we are again redirecting to todo.jsp via doGET() in ToDo_Servlet class.
+//            That's why the "name" attribute is lost over different requests.
+//            So the keep transmitting the attribute over Different requests or redirections, we have to make use of session.
+//            To be able to pass the name to todo.jsp, we must pass it through the session
+
+            httpServletRequest.getSession().setAttribute("name",name);
+
+
+
+
+            // Redirecting to another SERVLET//////////
             httpServletResponse.sendRedirect("/todo");
 
         }else{

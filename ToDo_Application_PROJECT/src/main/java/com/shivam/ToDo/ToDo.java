@@ -1,5 +1,7 @@
 package com.shivam.ToDo;
 
+import java.util.Objects;
+
 /**
  * created by Shivam on 22-02-2019.
  */
@@ -24,4 +26,13 @@ public class ToDo {
     public String toString() {
         return getName();
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof ToDo)) return false;
+        ToDo toDo = (ToDo) o;
+        return name.equals(((ToDo) o).name);
+    }
+
 }

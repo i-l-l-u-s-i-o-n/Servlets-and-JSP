@@ -10,10 +10,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Welcome</title>
+    <title>Welcome </title>
 </head>
 <body>
-<h1>WELCOME</h1>
+<h1>WELCOME   ${name}</h1>
 <h2>Your ToDos are : </h2>
 
 <%--To loop over the todos, we are using JSTL library,--%>
@@ -26,11 +26,17 @@
     <%--              ^                   ^                  --%>
 <c:forEach items="${list}"         var="todo">
 
-    <li> ${todo}</li>
+    <%--&nbsp;  is used for space --%>
+    <li> ${todo} &nbsp; &nbsp; <a href="/delete_ToDo?todo=${todo}" >Delete</a></li>
 
 </c:forEach>
 
 </ul>
+
+<form action="/todo" method="post">
+    <input type="text" name="newToDO" placeholder="New ToDo : ">
+    <input type="submit" value="Add">
+</form>
 
 </body>
 </html>
