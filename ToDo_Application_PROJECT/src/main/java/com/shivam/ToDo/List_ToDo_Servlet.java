@@ -10,20 +10,17 @@ import java.io.IOException;
 /**
  * created by Shivam on 22-02-2019.
  */
+@WebServlet(urlPatterns = "/list_todo")
+public class List_ToDo_Servlet extends HttpServlet {
 
-@WebServlet(urlPatterns = "/delete_ToDo")
-public class Delete_ToDo_Servlet extends HttpServlet {
+    //For Using ToDo services as retrieve list etc.
+    ToDoService service = new ToDoService();
 
-    ToDoService service=new ToDoService();
     @Override
     protected void doGet(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws ServletException, IOException {
 
-        boolean isRemoved=service.removeTodo(httpServletRequest.getParameter("todo"));
 
-        if (isRemoved){
-            //Redirecting to /todo servlet.
-            httpServletResponse.sendRedirect("/list_todo");
-        }
-
+        httpServletRequest.setAttribute("list", service.getList());
+        httpServletRequest.getRequestDispatcher("/WEB-INF/views/todo.jsp").forward(httpServletRequest, httpServletResponse);
     }
 }

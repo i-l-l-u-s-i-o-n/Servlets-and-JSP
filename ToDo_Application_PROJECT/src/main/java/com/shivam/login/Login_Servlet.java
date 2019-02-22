@@ -24,7 +24,7 @@ So if are submitting sensitive info. such as password, we can use POST instead o
 
 
  */
-@WebServlet(urlPatterns = "/")
+@WebServlet(urlPatterns = "/login")
 public class Login_Servlet extends HttpServlet {
 
 
@@ -56,7 +56,7 @@ public class Login_Servlet extends HttpServlet {
 //            httpServletRequest.setAttribute("name",name);
 //            Also the name will also can't be sent over different requests, for example ->
 //            Here we are setting the attribute in in doPOST() which is a post request,
-//            and we are again redirecting to todo.jsp via doGET() in ToDo_Servlet class.
+//            and we are again redirecting to todo.jsp via doGET() in List_ToDo_Servlet class.
 //            That's why the "name" attribute is lost over different requests.
 //            So the keep transmitting the attribute over Different requests or redirections, we have to make use of session.
 //            To be able to pass the name to todo.jsp, we must pass it through the session
@@ -67,7 +67,7 @@ public class Login_Servlet extends HttpServlet {
 
 
             // Redirecting to another SERVLET//////////
-            httpServletResponse.sendRedirect("/todo");
+            httpServletResponse.sendRedirect("/list_todo");
 
         }else{
 

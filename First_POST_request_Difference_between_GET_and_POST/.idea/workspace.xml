@@ -6,25 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e83eaf0-ac16-45af-8d9d-d64cb9adc8c7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction_to_scriptlets/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Introduction_to_scriptlets/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/ToDo_Application_PROJECT.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/src/main/java/com/shivam/ToDo/ToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/src/main/java/com/shivam/ToDo/ToDo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/src/main/java/com/shivam/ToDo/ToDo_Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/src/main/java/com/shivam/ToDo/ToDo_Servlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/src/main/java/com/shivam/login/Login_Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/src/main/java/com/shivam/login/Login_Servlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/src/main/webapp/WEB-INF/views/todo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/src/main/webapp/WEB-INF/views/todo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/ToDo_Application_PROJECT-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/ToDo_Application_PROJECT-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/ToDo_Application_PROJECT-1.0-SNAPSHOT/WEB-INF/classes/com/shivam/ToDo/ToDo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/ToDo_Application_PROJECT-1.0-SNAPSHOT/WEB-INF/classes/com/shivam/ToDo/ToDo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/ToDo_Application_PROJECT-1.0-SNAPSHOT/WEB-INF/classes/com/shivam/ToDo/ToDo_Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/ToDo_Application_PROJECT-1.0-SNAPSHOT/WEB-INF/classes/com/shivam/ToDo/ToDo_Servlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/ToDo_Application_PROJECT-1.0-SNAPSHOT/WEB-INF/classes/com/shivam/login/Login_Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/ToDo_Application_PROJECT-1.0-SNAPSHOT/WEB-INF/classes/com/shivam/login/Login_Servlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/ToDo_Application_PROJECT-1.0-SNAPSHOT/WEB-INF/views/todo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/ToDo_Application_PROJECT-1.0-SNAPSHOT/WEB-INF/views/todo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/classes/META-INF/ToDo_Application_PROJECT.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/classes/com/shivam/ToDo/ToDo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/classes/com/shivam/ToDo/ToDo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/classes/com/shivam/ToDo/ToDo_Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/classes/com/shivam/ToDo/ToDo_Servlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/classes/com/shivam/login/Login_Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDo_Application_PROJECT/target/classes/com/shivam/login/Login_Servlet.class" afterDir="false" />
-    </list>
+    <list default="true" id="5e83eaf0-ac16-45af-8d9d-d64cb9adc8c7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,16 +17,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="306">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/shivam/POST_request.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="343">
@@ -56,12 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/shivam/UserValidationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="119">
               <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-              <folding>
-                <element signature="e#154#155#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -126,7 +104,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="745" />
@@ -139,7 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,6 +147,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,16 +264,18 @@
       <updated>1550771781649</updated>
       <workItem from="1550771843187" duration="1269000" />
       <workItem from="1550814346647" duration="3272000" />
+      <workItem from="1550843376883" duration="43000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4541000" />
+    <option name="totallyTimeSpent" value="4584000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20121029" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16490166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -373,6 +353,13 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/shivam/UserValidationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -390,28 +377,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shivam/UserValidationService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/shivam/POST_request.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="343">
+          <caret line="48" column="58" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shivam/POST_request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="48" column="58" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
+        <state relative-caret-position="306">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
