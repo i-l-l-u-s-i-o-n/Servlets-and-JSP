@@ -15,6 +15,8 @@ import java.io.IOException;
 /*
 Using scriptlets is very bad practice !!!!!!
 
+INSTEAD of SCRIPTLETS, we can use "JSTL" -> JSP STANDARD TAG LIBRARY.
+
 as JSP is only view, and we don't want to mess up it with business logic.
 
 In a JSP file, we can use Scriptlets by using "<% %>" and "<%= %>"
