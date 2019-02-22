@@ -17,5 +17,6 @@
     <input type="password" name="pw" placeholder="Password : ">
     <input type="submit">
 </form>
+<p>${Error}</p>
 </body>
 </html>

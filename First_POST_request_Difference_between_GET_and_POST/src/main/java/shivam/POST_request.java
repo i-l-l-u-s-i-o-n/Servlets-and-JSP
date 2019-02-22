@@ -25,6 +25,7 @@ So if are submitting sensitive info. such as password, we can use POST instead o
 @WebServlet(urlPatterns = "/")
 public class POST_request extends HttpServlet {
 
+
     @Override
     protected void doGet(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws ServletException, IOException {
 
@@ -35,11 +36,26 @@ public class POST_request extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws ServletException, IOException {
 
-        httpServletRequest.setAttribute("name", httpServletRequest.getParameter("name"));
-        httpServletRequest.setAttribute("pass", httpServletRequest.getParameter("pw"));
+        String name=httpServletRequest.getParameter("name");
+        String pass=httpServletRequest.getParameter("pw");
 
-        httpServletRequest.getRequestDispatcher("/WEB-INF/views/welcome.jsp").forward(httpServletRequest, httpServletResponse);
 
+        UserValidationService user=new UserValidationService();
+
+        if (user.isValid(name,pass)) {
+
+
+            httpServletRequest.setAttribute("name",name );
+            httpServletRequest.setAttribute("pass", pass);
+
+
+            httpServletRequest.getRequestDispatcher("/WEB-INF/views/welcome.jsp").forward(httpServletRequest, httpServletResponse);
+        }else{
+
+            httpServletRequest.setAttribute("Error", "Invalid Credentials !");
+
+            httpServletRequest.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(httpServletRequest, httpServletResponse);
+        }
     }
 }
 
