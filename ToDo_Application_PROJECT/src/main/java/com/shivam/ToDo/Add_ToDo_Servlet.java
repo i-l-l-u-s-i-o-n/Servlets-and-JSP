@@ -15,13 +15,20 @@ public class Add_ToDo_Servlet extends HttpServlet {
 
     ToDoService service=new ToDoService();
 
+
+    @Override
+    protected void doGet(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws ServletException, IOException {
+
+        httpServletRequest.getRequestDispatcher("/WEB-INF/views/new_todo.jsp").forward(httpServletRequest,httpServletResponse);
+    }
+
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 
         // Adding new ToDo.
 
-        service.addToDo(request.getParameter("newToDO"));
+        service.addToDo(request.getParameter("newToDO"),request.getParameter("category"));
 
 
 //        request.setAttribute("list",service.getList());

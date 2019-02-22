@@ -5,40 +5,15 @@
   Time: 20:51
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>LOGIN</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
-    <style>
-        .footer {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            height: 60px;
-            background-color: #f5f5f5;
-        }
-    </style>
-</head>
+<%--We have put the common part of jsp's into the header , footer and navigation.jspf file--%>
+<%--and now we are includeing them--%>
+<%--jspf -> jsp fragments--%>
+<%--we can also do it for all the jsp's--%>
+<%--but here we are doing it only for login.jsp to show this functionality--%>
+<%@include file="../common/header.jspf"%>
+<%@include file="../common/navbar.jspf"%>
 
-<body>
-
-<nav class="navbar navbar-default">
-
-    <a href="/" class="navbar-brand">Brand</a>
-
-    <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="/list_todo">Todos</a></li>
-        <li><a href="http://www.github.com/shivam1097">Shivam</a></li>
-    </ul>
-
-    <ul class="nav navbar-nav navbar-right">
-        <li><a href="/login">Login</a></li>
-    </ul>
-
-</nav>
 
 <div class="container">
     <h1>Enter your credentials: </h1>
@@ -51,13 +26,6 @@
 
 </div>
 
-<footer class="footer">
-    <p>footer content</p>
-</footer>
 
-<script src="webjars/jquery/1.9.1/jquery.min.js"></script>
-<%--<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>--%>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-</body>
+<%@include file="../common/footer.jspf"%>
 
-</html>

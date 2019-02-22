@@ -32,7 +32,7 @@
 
 <nav class="navbar navbar-default">
 
-    <a href="/" class="navbar-brand">Brand</a>
+    <a href="/" class="navbar-brand">VISION</a>
 
     <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
@@ -50,27 +50,37 @@
     <H1>WELCOME  ${name}</H1>
 
     Your ToDos are :
-    <ul>
+
+    <table class="table table-striped">
+        <thead>
+            <th>Description</th>
+            <th>Category</th>
+            <th>Action</th>
+        </thead>
+
+        <tbody>
         <%--           The List         element_of_list          --%>
         <%--              ^                   ^                  --%>
         <c:forEach items="${list}"         var="todo">
-
-            <%--&nbsp;  is used for space --%>
-            <li> ${todo} &nbsp; &nbsp; <a href="/delete_ToDo?todo=${todo}" >Delete</a></li>
-
+            <tr>
+                <td>${todo.name}</td>
+                <td>${todo.category}</td>
+                <td><a class="btn btn-danger" href="/delete_ToDo?todo=${todo.name}&category=${todo.category}" >Delete</a></td>
+            </tr>
         </c:forEach>
+        </tbody>
+    </table>
 
-    </ul>
 
-    <form action="/add_todo" method="post">
-        <input type="text" name="newToDO" placeholder="New ToDo : ">
-        <input type="submit" value="Add">
-    </form>
+    <a class="btn btn-info" href="/add_todo">ADD ToDo</a>
+
+
+
 
 </div>
 
 <footer class="footer">
-    <p>footer content</p>
+    <h3>Developed by -> SHIVAM SHUKLA</h3>
 </footer>
 
 <script src="webjars/jquery/1.9.1/jquery.min.js"></script>

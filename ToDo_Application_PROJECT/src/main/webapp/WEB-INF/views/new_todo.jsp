@@ -47,35 +47,22 @@
 </nav>
 
 <div class="container">
-    <H1>WELCOME  ${name}</H1>
 
-    Your ToDos are :
+    <h2>Enter details of new ToDo :</h2>
 
-    <table class="table table-striped">
-        <thead>
-            <th>Description</th>
-            <th>Category</th>
-            <th>Action</th>
-        </thead>
+    <form action="/add_todo" method="post">
 
-        <tbody>
-        <%--           The List         element_of_list          --%>
-        <%--              ^                   ^                  --%>
-        <c:forEach items="${list}"         var="todo">
-            <tr>
-                <td>${todo.name}</td>
-                <td>${todo.category}</td>
-                <td><a class="btn btn-danger" href="/delete_ToDo?todo=${todo.name}&category=${todo.category}" >Delete</a></td>
-            </tr>
-        </c:forEach>
-        </tbody>
-    </table>
-
-
-    <a class="btn btn-info" href="/add_todo">ADD ToDo</a>
-
-
-
+        <fieldset class="form-group">
+            <label>Description</label>
+        <input class="form-control" type="text" name="newToDO" placeholder="New Todo : ">
+        </fieldset>
+        <br>
+        <fieldset class="form-group">
+            <label>Description</label>
+            <input class="form-control" type="text" name="category" placeholder="Category : ">
+        </fieldset>
+        <input class="btn btn-success" type="submit" value="Add New Todo">
+    </form>
 
 </div>
 

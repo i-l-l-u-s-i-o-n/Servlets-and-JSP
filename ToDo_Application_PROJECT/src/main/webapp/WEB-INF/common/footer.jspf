@@ -1,0 +1,11 @@
+
+<footer class="footer">
+    <h3>Developed by -> SHIVAM SHUKLA </h3>
+</footer>
+
+<script src="webjars/jquery/1.9.1/jquery.min.js"></script>
+<%--<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>--%>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+
+</html>

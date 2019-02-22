@@ -18,7 +18,7 @@ public class Delete_ToDo_Servlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws ServletException, IOException {
 
-        boolean isRemoved=service.removeTodo(httpServletRequest.getParameter("todo"));
+        boolean isRemoved=service.removeTodo(httpServletRequest.getParameter("todo"),httpServletRequest.getParameter("category"));
 
         if (isRemoved){
             //Redirecting to /todo servlet.

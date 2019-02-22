@@ -1,6 +1,5 @@
 package com.shivam.ToDo;
 
-import java.util.Objects;
 
 /**
  * created by Shivam on 22-02-2019.
@@ -8,9 +7,11 @@ import java.util.Objects;
 public class ToDo {
 
     String name;
+    String category;
 
-    public ToDo(String name) {
+    public ToDo(String name,String category) {
         this.name = name;
+        this.category=category;
     }
 
     public String getName() {
@@ -21,6 +22,13 @@ public class ToDo {
         this.name = name;
     }
 
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
 
     @Override
     public String toString() {
